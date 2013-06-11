@@ -40,6 +40,7 @@ BOARD_KERNEL_BASE := 0x80000000
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := DEMENTED_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/tuna
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
 
 TARGET_NO_RADIOIMAGE := true
 TARGET_BOARD_PLATFORM := omap4
