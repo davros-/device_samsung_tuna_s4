@@ -49,9 +49,9 @@ PRODUCT_PACKAGES += \
 	audio.a2dp.default \
 	audio.usb.default
 
-# DEMENTED bootanimation...Credit JaeKar
+# Droid_Concepts bootanimation...Credit JaeKar
 PRODUCT_COPY_FILES +=  \
-    vendor/DEMENTED/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/Droid_Concepts/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_COPY_FILES += \
 	device/samsung/tuna/audio/audio_policy.conf:system/etc/audio_policy.conf \
